@@ -173,9 +173,21 @@ export function SourceDrawer({
 
         {selection.kind === "total_incomplete" ? (
           <div className="ndDrawerBody">
+            <dl className="sourceDetails">
+              <div>
+                <dt>Helper total</dt>
+                <dd>
+                  &gt; {selection.partialValue} {selection.unit}
+                </dd>
+              </div>
+            </dl>
             <p className="ndExplain">
-              Cannot calculate this total because the following{" "}
-              {selection.missingModules.length === 1 ? "stage is" : "stages are"} missing:
+              We added the reported modules so you do not have to sum them manually. This is only
+              a helper number, not the final total.
+            </p>
+            <p>
+              It should not be used for comparison because the following{" "}
+              {selection.missingModules.length === 1 ? "module is" : "modules are"} missing:
             </p>
             <ul className="missingList">
               {selection.missingModules.map((mod) => (
@@ -185,8 +197,8 @@ export function SourceDrawer({
               ))}
             </ul>
             <p className="ndExplain">
-              Not declared means missing data, not zero. Totals are not calculated when required
-              modules are missing.
+              Missing or not-declared data is not zero. The final comparable total is unavailable
+              until every required module is reported.
             </p>
           </div>
         ) : null}
@@ -200,8 +212,8 @@ export function SourceDrawer({
                   Missing modules: {selection.missingModules.join(", ")}
                 </p>
                 <p className="ndExplain">
-                  Not declared means missing data, not zero. Do not calculate totals when required
-                  modules are missing.
+                  Not declared means missing data, not zero. Incomplete helper totals should not
+                  be used for comparison.
                 </p>
               </>
             ) : null}

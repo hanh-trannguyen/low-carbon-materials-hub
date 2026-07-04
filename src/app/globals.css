@@ -370,9 +370,22 @@ th {
   text-transform: uppercase;
 }
 
+.groupHeader .stickyProductGroup {
+  position: sticky;
+  left: 0;
+  z-index: 9;
+  width: 690px;
+  min-width: 690px;
+  box-shadow: 8px 0 10px -10px rgb(0 0 0 / 0.35);
+}
+
 thead tr:nth-child(2) th {
   top: 38px;
   z-index: 6;
+}
+
+thead tr:nth-child(2) th.stickyCol {
+  z-index: 8;
 }
 
 td {
@@ -413,7 +426,6 @@ td.stickyCol {
   left: 380px;
   width: 180px;
   min-width: 180px;
-  box-shadow: 8px 0 10px -10px rgb(0 0 0 / 0.35);
 }
 
 .unitCol {
@@ -666,6 +678,10 @@ td.stickyCol {
   color: #b91c1c;
 }
 
+.ndCell .partialTotalValue {
+  color: var(--warning);
+}
+
 /* Interactive ND button (full-cell clickable area) */
 .ndButton {
   width: 100%;
@@ -689,6 +705,14 @@ td.stickyCol {
 .totalValue {
   display: block;
   color: var(--accent);
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.partialTotalValue {
+  display: block;
+  margin-top: 6px;
+  color: var(--warning);
   font-size: 1.05rem;
   font-weight: 700;
 }

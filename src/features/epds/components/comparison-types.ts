@@ -25,6 +25,8 @@ export type SourceSelection =
       kind: "total_incomplete";
       product: string;
       title: string;
+      partialValue: string;
+      unit: string;
       missingModules: string[];
     }
   | {

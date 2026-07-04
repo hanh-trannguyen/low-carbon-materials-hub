@@ -30,7 +30,9 @@ export function ComparisonTable({
       <table>
         <thead>
           <tr className="groupHeader">
-            <th colSpan={4}>Product info</th>
+            <th className="stickyProductGroup" colSpan={4}>
+              Product info
+            </th>
             <th colSpan={1}>Product stage</th>
             <th colSpan={2}>Construction</th>
             <th colSpan={1}>Use</th>
@@ -43,7 +45,7 @@ export function ComparisonTable({
             <th className="stickyCol productCol">Product</th>
             <th className="stickyCol strengthCol">Strength</th>
             <th className="stickyCol locationCol">Location</th>
-            <th>Declared Unit</th>
+            <th className="stickyCol unitCol">Declared Unit</th>
             {lifecycleModules.map((module) => (
               <th key={module} title={moduleTitle(module)}>
                 {moduleLabel(module)}
@@ -51,13 +53,13 @@ export function ComparisonTable({
             ))}
             <th
               className="totalCol"
-              title="A1-A3 + A4 + A5. Only calculated when all three stages are reported. A not-declared stage is never treated as zero."
+              title="A1-A3 + A4 + A5. Complete only when all three stages are reported; otherwise the table shows a warned helper sum of reported stages."
             >
               Upfront A1–A5
             </th>
             <th
               className="totalCol"
-              title="A1-A3 + A4 + A5 + B stages + C1 + C2 + C3 + C4. Only calculated when all required modules are reported."
+              title="A1-A3 + A4 + A5 + B stages + C1 + C2 + C3 + C4. Complete only when all required modules are reported; otherwise the table shows a warned helper sum."
             >
               Life cycle A–C
             </th>
@@ -92,7 +94,7 @@ export function ComparisonTable({
                 </td>
                 <td className="stickyCol strengthCol">{strengthLabel(epd)}</td>
                 <td className="stickyCol locationCol">{epd.manufacturingLocation ?? "Not found"}</td>
-                <td>{epd.declaredUnit ?? "Not found"}</td>
+                <td className="stickyCol unitCol">{epd.declaredUnit ?? "Not found"}</td>
 
                 {lifecycleModules.map((module: LifecycleModule) => {
                   const item = epd.lifeCycleGwp.find((candidate) => candidate.module === module);
@@ -188,17 +190,23 @@ export function ComparisonTable({
                     <button
                       className="ndButton"
                       type="button"
-                      title="Incomplete data — click for details"
+                      title="Partial helper total only — click for details"
                       onClick={() =>
                         onSelect({
                           kind: "total_incomplete",
                           product: product.name,
                           title: "Incomplete upfront A1–A5",
+                          partialValue: formatCarbonValue(upfrontTotal.partialSum),
+                          unit: upfrontTotal.unit,
                           missingModules: upfrontTotal.missingModules
                         })
                       }
                     >
                       <strong>⚠️ Incomplete</strong>
+                      <strong className="partialTotalValue">
+                        &gt; {formatCarbonValue(upfrontTotal.partialSum)}
+                      </strong>
+                      <span className="meta">{upfrontTotal.unit}</span>
                       <span className="meta">Missing {upfrontTotal.missingModules.join(", ")}</span>
                     </button>
                   ) : (
@@ -227,17 +235,23 @@ export function ComparisonTable({
                     <button
                       className="ndButton"
                       type="button"
-                      title="Incomplete data — click for details"
+                      title="Partial helper total only — click for details"
                       onClick={() =>
                         onSelect({
                           kind: "total_incomplete",
                           product: product.name,
                           title: "Incomplete life cycle A–C",
+                          partialValue: formatCarbonValue(lifeCycleTotal.partialSum),
+                          unit: lifeCycleTotal.unit,
                           missingModules: lifeCycleTotal.missingModules
                         })
                       }
                     >
                       <strong>⚠️ Incomplete</strong>
+                      <strong className="partialTotalValue">
+                        &gt; {formatCarbonValue(lifeCycleTotal.partialSum)}
+                      </strong>
+                      <span className="meta">{lifeCycleTotal.unit}</span>
                       <span className="meta">Missing {lifeCycleTotal.missingModules.join(", ")}</span>
                     </button>
                   ) : (

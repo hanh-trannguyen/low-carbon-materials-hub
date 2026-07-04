@@ -1,0 +1,155 @@
+{
+  "id": "epd-ies-0014958-hymix-ge252wa06-3-2024-11-19",
+  "sourcePdf": "Resources/EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+  "productName": "HyLo-50 Normal-Class 25 MPa",
+  "manufacturer": "Hymix Australia Pty Ltd",
+  "declaredUnit": "1 m3",
+  "manufacturingLocation": "QUEENSLAND - GOLD COAST",
+  "compressiveStrength": {
+    "value": 25,
+    "unit": "MPa",
+    "status": "reported",
+    "source": {
+      "page": 18,
+      "quote": "HyLo-50 Normal-Class 25 MPa"
+    }
+  },
+  "lifeCycleGwp": [
+    {
+      "module": "A1-A3",
+      "value": 141,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 19,
+        "quote": "Core environmental impact indicators C1-C4Recarb C1-C4Recarbonation at dispo A1-A3 A4 A5 B1 B2 B3 B4 B5 B6 B7 C1 C2 C3 C4 D GWP-GHG kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 9.64E+00 1.01E+01 4.44E+00 3.19E+00 -1.31E+01; GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 9.64E+00 1.01E+01 4.44E+00 3.19E+00 -1.31E+01 GWP-fos kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 9.63E+00 1.00E+01 4.42E+00 3.19E+00 -1.30E+01 GWP-bio kg CO₂ eq. 2.70E-02 8.93E-04 6.78E-03 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 8.57E-04 2.15E-03 3.49E-03 8.61E-04 -1.60E-02 GWP-luc kg CO₂ eq. 2.17E-02 2.01E-03 2.59E-03 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 8.36E-04 4.83E-03 6.79E-03 1.64E-03 -1.03E-02"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "A4",
+      "value": 4.95,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 19,
+        "quote": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 9.64E+00 1.01E+01 4.44E+00 3.19E+00 -1.31E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "A5",
+      "value": 10.7,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 19,
+        "quote": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 9.64E+00 1.01E+01 4.44E+00 3.19E+00 -1.31E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "B1-B7",
+      "value": -3.28,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 19,
+        "quote": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 9.64E+00 1.01E+01 4.44E+00 3.19E+00 -1.31E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C1",
+      "value": 9.64,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 19,
+        "quote": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 9.64E+00 1.01E+01 4.44E+00 3.19E+00 -1.31E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C2",
+      "value": 10.1,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 19,
+        "quote": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 9.64E+00 1.01E+01 4.44E+00 3.19E+00 -1.31E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C3",
+      "value": 4.44,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 19,
+        "quote": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 9.64E+00 1.01E+01 4.44E+00 3.19E+00 -1.31E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C4",
+      "value": 3.19,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 19,
+        "quote": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 9.64E+00 1.01E+01 4.44E+00 3.19E+00 -1.31E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "D",
+      "value": -13.1,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 19,
+        "quote": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 9.64E+00 1.01E+01 4.44E+00 3.19E+00 -1.31E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    }
+  ],
+  "comparabilityNotes": [
+    "EPDs of construction products may not be comparable if they do not comply with EN 15804.",
+    "The EPD values presented are indicative of local material performance at the time of publishing and are subject to change based on material availability and seasonal factors.",
+    "An EPD should provide current information and may be updated or depublished if conditions change."
+  ],
+  "dataQualityFlags": [
+    "Data based on GCCA concrete EPD tool v5.0",
+    "Generic EPD for Gold Coast region",
+    "Data quality: High, Primary for most stages"
+  ]
+}

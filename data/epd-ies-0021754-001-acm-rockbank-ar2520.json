@@ -1,0 +1,145 @@
+{
+  "id": "epd-ies-0021754-001-acm-rockbank-ar2520",
+  "sourcePdf": "Resources/epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+  "productName": "AR2520 pre-mixed concrete",
+  "manufacturer": "Aurora Construction Materials Epping Pty Ltd (Aurora)",
+  "declaredUnit": "1 m³",
+  "manufacturingLocation": "Rockbank, Melbourne, Victoria, Australia",
+  "compressiveStrength": {
+    "value": 25,
+    "unit": "MPa",
+    "status": "reported",
+    "source": {
+      "page": 5,
+      "quote": "AR2520 25MPa"
+    }
+  },
+  "lifeCycleGwp": [
+    {
+      "module": "A1-A3",
+      "value": 140,
+      "unit": "kg CO2-eq.",
+      "status": "reported",
+      "source": {
+        "page": 18,
+        "quote": "Environmental Indicator Unit Module A1-A3 Module C1 Module C2 Module C3 Module C4 Module D Core Indicators GWP-total kg CO2-eq. 1.40E+02 1.20E+01 1.45E+01 8.03E+00 8.61E-01 -9.79E+00"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "A4",
+      "value": null,
+      "unit": null,
+      "status": "not_declared",
+      "source": null,
+      "verification": {
+        "status": "not_found",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "A5",
+      "value": null,
+      "unit": null,
+      "status": "not_declared",
+      "source": null,
+      "verification": {
+        "status": "not_found",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "B1-B7",
+      "value": null,
+      "unit": null,
+      "status": "not_declared",
+      "source": null,
+      "verification": {
+        "status": "not_found",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C1",
+      "value": 12,
+      "unit": "kg CO2-eq.",
+      "status": "reported",
+      "source": {
+        "page": 18,
+        "quote": "Environmental Indicator Unit Module A1-A3 Module C1 Module C2 Module C3 Module C4 Module D Core Indicators GWP-total kg CO2-eq. 1.40E+02 1.20E+01 1.45E+01 8.03E+00 8.61E-01 -9.79E+00"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C2",
+      "value": 14.5,
+      "unit": "kg CO2-eq.",
+      "status": "reported",
+      "source": {
+        "page": 18,
+        "quote": "Environmental Indicator Unit Module A1-A3 Module C1 Module C2 Module C3 Module C4 Module D Core Indicators GWP-total kg CO2-eq. 1.40E+02 1.20E+01 1.45E+01 8.03E+00 8.61E-01 -9.79E+00"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C3",
+      "value": 8.03,
+      "unit": "kg CO2-eq.",
+      "status": "reported",
+      "source": {
+        "page": 18,
+        "quote": "Environmental Indicator Unit Module A1-A3 Module C1 Module C2 Module C3 Module C4 Module D Core Indicators GWP-total kg CO2-eq. 1.40E+02 1.20E+01 1.45E+01 8.03E+00 8.61E-01 -9.79E+00"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C4",
+      "value": 0.861,
+      "unit": "kg CO2-eq.",
+      "status": "reported",
+      "source": {
+        "page": 18,
+        "quote": "Environmental Indicator Unit Module A1-A3 Module C1 Module C2 Module C3 Module C4 Module D Core Indicators GWP-total kg CO2-eq. 1.40E+02 1.20E+01 1.45E+01 8.03E+00 8.61E-01 -9.79E+00"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "D",
+      "value": -9.79,
+      "unit": "kg CO2-eq.",
+      "status": "reported",
+      "source": {
+        "page": 18,
+        "quote": "Environmental Indicator Unit Module A1-A3 Module C1 Module C2 Module C3 Module C4 Module D Core Indicators GWP-total kg CO2-eq. 1.40E+02 1.20E+01 1.45E+01 8.03E+00 8.61E-01 -9.79E+00"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    }
+  ],
+  "comparabilityNotes": [
+    "EPDs within the same product category but published in different EPD programmes may not be comparable.",
+    "For two EPDs to be comparable, they shall be based on the same PCR, cover products with identical functions, technical performances and use, have identical scope, and apply identical impact assessment methods."
+  ],
+  "dataQualityFlags": [
+    "Share of primary data: 36% (based on GWP-GHG for A1-A3)",
+    "Proxy data used for admixtures",
+    "Background data less than 10 years old"
+  ]
+}

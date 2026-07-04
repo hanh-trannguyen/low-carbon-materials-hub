@@ -1,0 +1,137 @@
+{
+  "id": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf",
+  "sourcePdf": "Resources/epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+  "productName": "Ready Mix Concrete Products",
+  "manufacturer": "Hallett Group",
+  "declaredUnit": "1 m³",
+  "manufacturingLocation": "Australia",
+  "compressiveStrength": {
+    "value": null,
+    "unit": null,
+    "status": "ambiguous",
+    "source": null
+  },
+  "lifeCycleGwp": [
+    {
+      "module": "A1-A3",
+      "value": null,
+      "unit": null,
+      "status": "not_found",
+      "source": null,
+      "verification": {
+        "status": "not_found",
+        "confidence": 0
+      }
+    },
+    {
+      "module": "A4",
+      "value": null,
+      "unit": null,
+      "status": "not_declared",
+      "source": null,
+      "verification": {
+        "status": "not_found",
+        "confidence": 0
+      }
+    },
+    {
+      "module": "A5",
+      "value": null,
+      "unit": null,
+      "status": "not_declared",
+      "source": null,
+      "verification": {
+        "status": "not_found",
+        "confidence": 0
+      }
+    },
+    {
+      "module": "B1-B7",
+      "value": null,
+      "unit": null,
+      "status": "not_declared",
+      "source": null,
+      "verification": {
+        "status": "not_found",
+        "confidence": 0
+      }
+    },
+    {
+      "module": "C1",
+      "value": 14.8,
+      "unit": "kg CO2-eq",
+      "status": "reported",
+      "source": {
+        "page": 35,
+        "quote": "GWPt kg CO2-eq 14.8 5.96 5.02 8.45 -11.6 (C1 value from Table 43)"
+      },
+      "verification": {
+        "status": "not_found",
+        "confidence": 0
+      }
+    },
+    {
+      "module": "C2",
+      "value": 5.96,
+      "unit": "kg CO2-eq",
+      "status": "reported",
+      "source": {
+        "page": 35,
+        "quote": "GWPt kg CO2-eq 14.8 5.96 5.02 8.45 -11.6 (C2 value from Table 43)"
+      },
+      "verification": {
+        "status": "not_found",
+        "confidence": 0
+      }
+    },
+    {
+      "module": "C3",
+      "value": 5.02,
+      "unit": "kg CO2-eq",
+      "status": "reported",
+      "source": {
+        "page": 35,
+        "quote": "GWPt kg CO2-eq 14.8 5.96 5.02 8.45 -11.6 (C3 value from Table 43)"
+      },
+      "verification": {
+        "status": "not_found",
+        "confidence": 0
+      }
+    },
+    {
+      "module": "C4",
+      "value": 8.45,
+      "unit": "kg CO2-eq",
+      "status": "reported",
+      "source": {
+        "page": 35,
+        "quote": "GWPt kg CO2-eq 14.8 5.96 5.02 8.45 -11.6 (C4 value from Table 43)"
+      },
+      "verification": {
+        "status": "not_found",
+        "confidence": 0
+      }
+    },
+    {
+      "module": "D",
+      "value": -11.6,
+      "unit": "kg CO2-eq",
+      "status": "reported",
+      "source": {
+        "page": 35,
+        "quote": "GWPt kg CO2-eq 14.8 5.96 5.02 8.45 -11.6 (D value from Table 43)"
+      },
+      "verification": {
+        "status": "not_found",
+        "confidence": 0
+      }
+    }
+  ],
+  "comparabilityNotes": [
+    "EPDs within the same product category but published in different EPD programmes, may not be comparable.",
+    "Results that are EN15804+A1 compliant are not comparable with EN15804+A2 compliant studies as the methodologies are different."
+  ],
+  "dataQualityFlags": [
+    "Specific data 5% - 26% (page 6: 'Specific data 5% - 26%')"
+  ]
+}

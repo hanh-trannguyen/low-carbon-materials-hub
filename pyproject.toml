@@ -1,0 +1,11 @@
+[project]
+name = "low-carbon-materials-hub-tools"
+version = "0.1.0"
+description = "PyMuPDF raw extraction CLI for low-carbon EPD data."
+requires-python = ">=3.11"
+dependencies = [
+  "pymupdf>=1.28.0",
+]
+
+[tool.uv]
+package = false

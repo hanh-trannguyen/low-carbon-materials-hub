@@ -1,0 +1,7 @@
+__pycache__/
+node_modules/
+.next/
+.extraction-raw/
+.env
+.env.local
+.env*.local

@@ -1,0 +1,152 @@
+{
+  "id": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd",
+  "sourcePdf": "Resources/epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
+  "productName": "VIC - Melbourne Metro - ECOPact- VE322EAMF",
+  "manufacturer": "Holcim (Australia) Pty Ltd",
+  "declaredUnit": "1 m³",
+  "manufacturingLocation": "Melbourne Metro, VIC, Australia",
+  "compressiveStrength": {
+    "value": 32,
+    "unit": "MPa",
+    "status": "reported",
+    "source": {
+      "page": 10,
+      "quote": "32.0"
+    }
+  },
+  "lifeCycleGwp": [
+    {
+      "module": "A1-A3",
+      "value": 105,
+      "unit": "kg CO2 eq.",
+      "status": "reported",
+      "source": {
+        "page": 15,
+        "quote": "PRIMARY ENVIRONMENTAL INDICATORS (in accordance with EN 15804:2012+A2:2019) – 1m3 of ready-mix concrete Abbreviation Unit A1-A3 A4 A5 C1 C2 C3 C4 D; GWP-Total kg CO2 eq. 105 2.05 8.81 0.532 3.99 7.61 1.28 -15.7"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "A4",
+      "value": 2.05,
+      "unit": "kg CO2 eq.",
+      "status": "reported",
+      "source": {
+        "page": 15,
+        "quote": "GWP-Total kg CO2 eq. 105 2.05 8.81 0.532 3.99 7.61 1.28 -15.7"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "A5",
+      "value": 8.81,
+      "unit": "kg CO2 eq.",
+      "status": "reported",
+      "source": {
+        "page": 15,
+        "quote": "GWP-Total kg CO2 eq. 105 2.05 8.81 0.532 3.99 7.61 1.28 -15.7"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "B1-B7",
+      "value": null,
+      "unit": null,
+      "status": "not_declared",
+      "source": {
+        "page": 9,
+        "quote": "Modules declared x x x x x ND ND ND ND ND ND ND ND x x x x x"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C1",
+      "value": 0.532,
+      "unit": "kg CO2 eq.",
+      "status": "reported",
+      "source": {
+        "page": 15,
+        "quote": "GWP-Total kg CO2 eq. 105 2.05 8.81 0.532 3.99 7.61 1.28 -15.7"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C2",
+      "value": 3.99,
+      "unit": "kg CO2 eq.",
+      "status": "reported",
+      "source": {
+        "page": 15,
+        "quote": "GWP-Total kg CO2 eq. 105 2.05 8.81 0.532 3.99 7.61 1.28 -15.7"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C3",
+      "value": 7.61,
+      "unit": "kg CO2 eq.",
+      "status": "reported",
+      "source": {
+        "page": 15,
+        "quote": "GWP-Total kg CO2 eq. 105 2.05 8.81 0.532 3.99 7.61 1.28 -15.7"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C4",
+      "value": 1.28,
+      "unit": "kg CO2 eq.",
+      "status": "reported",
+      "source": {
+        "page": 15,
+        "quote": "GWP-Total kg CO2 eq. 105 2.05 8.81 0.532 3.99 7.61 1.28 -15.7"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "D",
+      "value": -15.7,
+      "unit": "kg CO2 eq.",
+      "status": "reported",
+      "source": {
+        "page": 15,
+        "quote": "GWP-Total kg CO2 eq. 105 2.05 8.81 0.532 3.99 7.61 1.28 -15.7"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    }
+  ],
+  "comparabilityNotes": [
+    "EPDs within the same product category but registered in different EPD programmes, or not compliant with EN 15804, may not be comparable.",
+    "Product environmental information should only be compared with consideration of the product’s requisite function."
+  ],
+  "dataQualityFlags": [
+    "All data sources were scored good or very good."
+  ]
+}

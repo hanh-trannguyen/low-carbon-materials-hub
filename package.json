@@ -1,0 +1,28 @@
+{
+  "name": "low-carbon-materials-hub",
+  "version": "0.1.0",
+  "author": "Hanh Tran",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run validate:data && next build",
+    "start": "next start",
+    "extract": "tsx scripts/extract-epds.ts",
+    "validate:data": "tsx scripts/validate-data.ts",
+    "convert:schema": "tsx scripts/extract-epds/schema-json.ts"
+  },
+  "dependencies": {
+    "next": "^15.3.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.32",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}

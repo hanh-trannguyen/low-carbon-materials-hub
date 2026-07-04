@@ -1,0 +1,150 @@
+{
+  "id": "epd-hub-5991-2026-06-27-en",
+  "sourcePdf": "Resources/EPD_HUB-5991_2026-06-27_en.pdf",
+  "productName": "N40/20 Xencrete",
+  "manufacturer": "Entire Concrete",
+  "declaredUnit": "1 m³",
+  "manufacturingLocation": "Hunter Valley, NSW, Australia",
+  "compressiveStrength": {
+    "value": 40,
+    "unit": "MPa",
+    "status": "reported",
+    "source": {
+      "page": 2,
+      "quote": "characteristic strength of 40MPa"
+    }
+  },
+  "lifeCycleGwp": [
+    {
+      "module": "A1-A3",
+      "value": 273,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 8,
+        "quote": "CORE ENVIRONMENTAL IMPACT INDICATORS – EN 15804+A2, EF 3.1 Impact category Unit A1 A2 A3 A1-A3 A4 A5 B1 B2 B3 B4 B5 B6 B7 C1 C2 C3 C4 D; GWP – total1) kg CO2e 2.35E+02 3.42E+01 3.71E+00 2.73E+02 2.96E+00 1.64E+01 ND ND ND ND ND ND ND 4.39E+00 1.24E+01 7.06E+00 4.32E+00 ‐1.19E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "A4",
+      "value": 2.96,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 8,
+        "quote": "GWP – total    kg CO2e    2.35E+02 3.42E+01 3.71E+00 2.73E+02 2.96E+00 1.64E+01 ND ND ND ND ND ND ND 4.39E+00 1.24E+01 7.06E+00 4.32E+00 -1.19E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "A5",
+      "value": 16.4,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 8,
+        "quote": "GWP – total    kg CO2e    2.35E+02 3.42E+01 3.71E+00 2.73E+02 2.96E+00 1.64E+01 ND ND ND ND ND ND ND 4.39E+00 1.24E+01 7.06E+00 4.32E+00 -1.19E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "B1-B7",
+      "value": null,
+      "unit": null,
+      "status": "not_declared",
+      "source": null,
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C1",
+      "value": 4.39,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 8,
+        "quote": "GWP – total    kg CO2e    2.35E+02 3.42E+01 3.71E+00 2.73E+02 2.96E+00 1.64E+01 ND ND ND ND ND ND ND 4.39E+00 1.24E+01 7.06E+00 4.32E+00 -1.19E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C2",
+      "value": 12.4,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 8,
+        "quote": "GWP – total    kg CO2e    2.35E+02 3.42E+01 3.71E+00 2.73E+02 2.96E+00 1.64E+01 ND ND ND ND ND ND ND 4.39E+00 1.24E+01 7.06E+00 4.32E+00 -1.19E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C3",
+      "value": 7.06,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 8,
+        "quote": "GWP – total    kg CO2e    2.35E+02 3.42E+01 3.71E+00 2.73E+02 2.96E+00 1.64E+01 ND ND ND ND ND ND ND 4.39E+00 1.24E+01 7.06E+00 4.32E+00 -1.19E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C4",
+      "value": 4.32,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 8,
+        "quote": "GWP – total    kg CO2e    2.35E+02 3.42E+01 3.71E+00 2.73E+02 2.96E+00 1.64E+01 ND ND ND ND ND ND ND 4.39E+00 1.24E+01 7.06E+00 4.32E+00 -1.19E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "D",
+      "value": -11.9,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 8,
+        "quote": "GWP – total    kg CO2e    2.35E+02 3.42E+01 3.71E+00 2.73E+02 2.96E+00 1.64E+01 ND ND ND ND ND ND ND 4.39E+00 1.24E+01 7.06E+00 4.32E+00 -1.19E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    }
+  ],
+  "comparabilityNotes": [
+    "EPDs within the same product category but from different programs may not be comparable.",
+    "EPDs of construction products may not be comparable if they do not comply with EN 15804 and if they are not compared in a building context."
+  ],
+  "dataQualityFlags": [
+    "Third party verified EPD",
+    "Product represents average of multiple manufacturing sites"
+  ]
+}

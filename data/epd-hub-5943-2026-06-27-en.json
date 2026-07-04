@@ -1,0 +1,151 @@
+{
+  "id": "epd-hub-5943-2026-06-27-en",
+  "sourcePdf": "Resources/EPD_HUB-5943_2026-06-27_en.pdf",
+  "productName": "N50/20 Xencrete",
+  "manufacturer": "Entire Concrete",
+  "declaredUnit": "1 m³",
+  "manufacturingLocation": "Hunter Valley, NSW, Australia",
+  "compressiveStrength": {
+    "value": 50,
+    "unit": "MPa",
+    "status": "reported",
+    "source": {
+      "page": 2,
+      "quote": "The raw materials are proportioned so as to achieve a characteristic strength of SOMPa"
+    }
+  },
+  "lifeCycleGwp": [
+    {
+      "module": "A1-A3",
+      "value": 310,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 8,
+        "quote": "CORE ENVIRONMENTAL IMPACT INDICATORS – EN 15804+A2, EF 3.1 Impact category Unit A1 A2 A3 A1-A3 A4 A5 B1 B2 B3 B4 B5 B6 B7 C1 C2 C3 C4 D; GWP – total1) kg CO2e 2.70E+02 3.61E+01 3.65E+00 3.10E+02 2.91E+00 1.75E+01 ND ND ND ND ND ND ND 4.32E+00 1.22E+01 6.96E+00 4.26E+00 ‐1.17E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "A4",
+      "value": 2.91,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 8,
+        "quote": "A4: 2.91E+00"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "A5",
+      "value": 17.5,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 8,
+        "quote": "A5: 1.75E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "B1-B7",
+      "value": null,
+      "unit": null,
+      "status": "not_declared",
+      "source": null,
+      "verification": {
+        "status": "not_found",
+        "confidence": 0
+      }
+    },
+    {
+      "module": "C1",
+      "value": 4.32,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 8,
+        "quote": "C1: 4.32E+00"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C2",
+      "value": 12.2,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 8,
+        "quote": "C2: 1.22E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C3",
+      "value": 6.96,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 8,
+        "quote": "C3: 6.96E+00"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C4",
+      "value": 4.26,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 8,
+        "quote": "C4: 4.26E+00"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "D",
+      "value": -11.7,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 8,
+        "quote": "D: -1.17E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    }
+  ],
+  "comparabilityNotes": [
+    "EPDs within the same product category but from different programs may not be comparable.",
+    "EPDs of construction products may not be comparable if they do not comply with EN 15804 and if they are not compared in a building context.",
+    "The estimated impact results are only relative statements which do not indicate the end points of the impact categories, exceeding threshold values, safety margins or risks."
+  ],
+  "dataQualityFlags": [
+    "Specific data (%) 2.7",
+    "Cut-off criteria applied: no neglected unit process more than 1% of total mass or energy flows, total neglected input and output flows do not exceed 5%."
+  ]
+}

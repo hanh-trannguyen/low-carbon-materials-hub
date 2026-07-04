@@ -1,0 +1,153 @@
+{
+  "id": "epd-ies-0014785-heidelberg-woolworths-ge322lpf2",
+  "sourcePdf": "Resources/EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+  "productName": "GE322LPF2",
+  "manufacturer": "Heidelberg Materials Australia Pty Ltd",
+  "declaredUnit": "1 m³",
+  "manufacturingLocation": "QUEENSLAND - BRISBANE",
+  "compressiveStrength": {
+    "value": 32,
+    "unit": "MPa",
+    "status": "reported",
+    "source": {
+      "page": 20,
+      "quote": "GE322LPF2 EPD-IES-0014785:001 32 145 167 General works"
+    }
+  },
+  "lifeCycleGwp": [
+    {
+      "module": "A1-A3",
+      "value": 145,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 18,
+        "quote": "Core environmental impact indicators A1-A3 A4 A5 B1 B2 B3 B4 B5 B6 B7 C1 C2 C3 C4 D GWP-GHG kg CO₂ eq. 1.45E+02 3.41E+00 1.01E+01 -3.17E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 8.99E+00 9.03E+00 5.19E+00 2.85E+00 -1.41E+01; GWP-tot kg CO₂ eq. 1.45E+02 3.41E+00 1.01E+01 -3.17E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 8.99E+00 9.03E+00 5.19E+00 2.85E+00 -1.41E+01 GWP-fos kg CO₂ eq. 1.45E+02 3.41E+00 1.01E+01 -3.17E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 8.99E+00 9.01E+00 5.16E+00 2.84E+00 -1.40E+01 GWP-bio kg CO₂ eq. 4.83E-02 1.33E-03 4.38E-03 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 1.60E-03 6.45E-03 1.93E-02 1.88E-03 -5.65E-02 GWP-luc kg CO₂ eq. 3.21E-02 1.15E-03 3.34E-03 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 1.13E-03 5.24E-03 1.47E-02 1.53E-03 -2.45E-02"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "A4",
+      "value": 3.41,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 18,
+        "quote": "GWP-tot kg CO₂ eq. 1.45E+02 3.41E+00 1.01E+01 -3.17E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 8.99E+00 9.03E+00 5.19E+00 2.85E+00 -1.41E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "A5",
+      "value": 10.1,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 18,
+        "quote": "GWP-tot kg CO₂ eq. 1.45E+02 3.41E+00 1.01E+01 -3.17E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 8.99E+00 9.03E+00 5.19E+00 2.85E+00 -1.41E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "B1-B7",
+      "value": -3.17,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 18,
+        "quote": "GWP-tot kg CO₂ eq. 1.45E+02 3.41E+00 1.01E+01 -3.17E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 8.99E+00 9.03E+00 5.19E+00 2.85E+00 -1.41E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C1",
+      "value": 8.99,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 18,
+        "quote": "GWP-tot kg CO₂ eq. 1.45E+02 3.41E+00 1.01E+01 -3.17E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 8.99E+00 9.03E+00 5.19E+00 2.85E+00 -1.41E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C2",
+      "value": 9.03,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 18,
+        "quote": "GWP-tot kg CO₂ eq. 1.45E+02 3.41E+00 1.01E+01 -3.17E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 8.99E+00 9.03E+00 5.19E+00 2.85E+00 -1.41E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C3",
+      "value": 5.19,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 18,
+        "quote": "GWP-tot kg CO₂ eq. 1.45E+02 3.41E+00 1.01E+01 -3.17E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 8.99E+00 9.03E+00 5.19E+00 2.85E+00 -1.41E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C4",
+      "value": 2.85,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 18,
+        "quote": "GWP-tot kg CO₂ eq. 1.45E+02 3.41E+00 1.01E+01 -3.17E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 8.99E+00 9.03E+00 5.19E+00 2.85E+00 -1.41E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "D",
+      "value": -14.1,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 18,
+        "quote": "GWP-tot kg CO₂ eq. 1.45E+02 3.41E+00 1.01E+01 -3.17E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 8.99E+00 9.03E+00 5.19E+00 2.85E+00 -1.41E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    }
+  ],
+  "comparabilityNotes": [
+    "EPDs within the same product category but from different programmes may not be comparable.",
+    "EPDs of construction products may not be comparable if they do not comply with EN 15804.",
+    "The estimated impact results are only relative statements, which do not indicate the endpoints of the impact categories, exceeding threshold values, safety margins and/or risks."
+  ],
+  "dataQualityFlags": [
+    "Data quality for most stages is 'very good' based on primary data."
+  ]
+}

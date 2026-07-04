@@ -1,0 +1,130 @@
+{
+  "id": "epd-ies-0021165-sn252f100",
+  "sourcePdf": "Resources/epd-ies-0021165-sn252f100.pdf",
+  "productName": "Futurecrete SN252F100",
+  "manufacturer": "Adbri Limited",
+  "declaredUnit": "1 m³",
+  "manufacturingLocation": "South Australia",
+  "compressiveStrength": {
+    "value": 25,
+    "unit": "MPa",
+    "status": "reported",
+    "source": {
+      "page": 32,
+      "quote": "Mix code Product group ... Futurecrete SN252F100 Normal Class GL:Slag 25 MPa"
+    }
+  },
+  "lifeCycleGwp": [
+    {
+      "module": "A1-A3",
+      "value": 143.83,
+      "unit": "kg CO2 eq",
+      "status": "reported",
+      "source": {
+        "page": 32,
+        "quote": "Table 8 | Potential environmental impacts of Product stage (A1 - A3) ... Futurecrete SN252F100 Normal Class GL:Slag 25 MPa ... 143.83 ... GWP-total"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "A4",
+      "value": 9.64,
+      "unit": "kg CO2 eq",
+      "status": "reported",
+      "source": {
+        "page": 34,
+        "quote": "Table 13 | Potential environmental impacts of Distribution stage (A4) ... Concrete produced at South Australia ... GWP-total ... 9.64"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "A5",
+      "value": null,
+      "unit": null,
+      "status": "not_found",
+      "source": null,
+      "verification": {
+        "status": "not_found",
+        "confidence": 0
+      }
+    },
+    {
+      "module": "B1-B7",
+      "value": null,
+      "unit": null,
+      "status": "not_declared",
+      "source": null,
+      "verification": {
+        "status": "not_found",
+        "confidence": 0
+      }
+    },
+    {
+      "module": "C1",
+      "value": null,
+      "unit": null,
+      "status": "not_found",
+      "source": null,
+      "verification": {
+        "status": "not_found",
+        "confidence": 0
+      }
+    },
+    {
+      "module": "C2",
+      "value": null,
+      "unit": null,
+      "status": "not_found",
+      "source": null,
+      "verification": {
+        "status": "not_found",
+        "confidence": 0
+      }
+    },
+    {
+      "module": "C3",
+      "value": null,
+      "unit": null,
+      "status": "not_found",
+      "source": null,
+      "verification": {
+        "status": "not_found",
+        "confidence": 0
+      }
+    },
+    {
+      "module": "C4",
+      "value": null,
+      "unit": null,
+      "status": "not_found",
+      "source": null,
+      "verification": {
+        "status": "not_found",
+        "confidence": 0
+      }
+    },
+    {
+      "module": "D",
+      "value": null,
+      "unit": null,
+      "status": "not_found",
+      "source": null,
+      "verification": {
+        "status": "not_found",
+        "confidence": 0
+      }
+    }
+  ],
+  "comparabilityNotes": [
+    "EPDs are not always comparable. EPDs within the same product category from different programmes may not be comparable. Understanding the detail is important."
+  ],
+  "dataQualityFlags": [
+    "Data quality: Good"
+  ]
+}

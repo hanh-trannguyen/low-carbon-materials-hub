@@ -1,0 +1,141 @@
+{
+  "id": "epd-hub-5556-2026-06-27-en",
+  "sourcePdf": "Resources/EPD_HUB-5556_2026-06-27_en.pdf",
+  "productName": "50MPa 20mm Enviro 50% SCM 100SL Conc",
+  "manufacturer": "Boral Limited",
+  "declaredUnit": "1 m³",
+  "manufacturingLocation": "Melbourne",
+  "compressiveStrength": {
+    "value": 50,
+    "unit": "MPa",
+    "status": "reported",
+    "source": {
+      "page": 1,
+      "quote": "50MPa 20mm Enviro 50% SCM 100SL Conc Melbourne"
+    }
+  },
+  "lifeCycleGwp": [
+    {
+      "module": "A1-A3",
+      "value": 268,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 13,
+        "quote": "Core environmental impact indicators – EN 15804+A2, EF 3.1 Impact category Unit A1 A2 A3 A1-A3; GWP – total1 kg CO2e 2.56E+02 6.58E+00 5.62E+00 2.68E+02"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "A4",
+      "value": null,
+      "unit": null,
+      "status": "not_declared",
+      "source": null,
+      "verification": {
+        "status": "not_found",
+        "confidence": 0.5
+      }
+    },
+    {
+      "module": "A5",
+      "value": null,
+      "unit": null,
+      "status": "not_declared",
+      "source": null,
+      "verification": {
+        "status": "not_found",
+        "confidence": 0.5
+      }
+    },
+    {
+      "module": "B1-B7",
+      "value": null,
+      "unit": null,
+      "status": "not_declared",
+      "source": null,
+      "verification": {
+        "status": "not_found",
+        "confidence": 0.5
+      }
+    },
+    {
+      "module": "C1",
+      "value": 4.52,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 14,
+        "quote": "GWP – total kg CO2e 4.52E+00 1.28E+01 7.28E+00 4.45E+00 -1.30E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C2",
+      "value": 12.8,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 14,
+        "quote": "GWP – total kg CO2e 4.52E+00 1.28E+01 7.28E+00 4.45E+00 -1.30E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C3",
+      "value": 7.28,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 14,
+        "quote": "GWP – total kg CO2e 4.52E+00 1.28E+01 7.28E+00 4.45E+00 -1.30E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C4",
+      "value": 4.45,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 14,
+        "quote": "GWP – total kg CO2e 4.52E+00 1.28E+01 7.28E+00 4.45E+00 -1.30E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "D",
+      "value": -13,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 14,
+        "quote": "GWP – total kg CO2e 4.52E+00 1.28E+01 7.28E+00 4.45E+00 -1.30E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    }
+  ],
+  "comparabilityNotes": [
+    "EPDs within the same product category but from different programs may not be comparable.",
+    "EPDs of construction products may not be comparable if they do not comply with EN 15804 and if they are not compared in a building context."
+  ],
+  "dataQualityFlags": []
+}

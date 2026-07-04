@@ -1,0 +1,149 @@
+{
+  "id": "epd-ies-0014769-p252080",
+  "sourcePdf": "Resources/EPD-IES-0014769_P252080.pdf",
+  "productName": "P252080",
+  "manufacturer": "Hanson Construction Materials Pty Ltd",
+  "declaredUnit": "1 m³",
+  "manufacturingLocation": "Brisbane",
+  "compressiveStrength": {
+    "value": 25,
+    "unit": "MPa",
+    "status": "reported",
+    "source": {
+      "page": 20,
+      "quote": "Compressive Strength 25"
+    }
+  },
+  "lifeCycleGwp": [
+    {
+      "module": "A1-A3",
+      "value": 127,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 21,
+        "quote": "Core Environmental Impact Indicators GWP-tot A1-A3: 1.27E+02 kg CO₂ eq."
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 1
+      }
+    },
+    {
+      "module": "A4",
+      "value": 2.45,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 21,
+        "quote": "Core Environmental Impact Indicators GWP-tot A4: 2.45E+00 kg CO₂ eq."
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 1
+      }
+    },
+    {
+      "module": "A5",
+      "value": 9.95,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 21,
+        "quote": "Core Environmental Impact Indicators GWP-tot A5: 9.95E+00 kg CO₂ eq."
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 1
+      }
+    },
+    {
+      "module": "B1-B7",
+      "value": -2.65,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 21,
+        "quote": "Core Environmental Impact Indicators GWP-tot B1: -2.65E+00, B2-B7: 0.00E+00 kg CO₂ eq."
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 1
+      }
+    },
+    {
+      "module": "C1",
+      "value": 8.99,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 21,
+        "quote": "Core Environmental Impact Indicators GWP-tot C1: 8.99E+00 kg CO₂ eq."
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 1
+      }
+    },
+    {
+      "module": "C2",
+      "value": 8.85,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 21,
+        "quote": "Core Environmental Impact Indicators GWP-tot C2: 8.85E+00 kg CO₂ eq."
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 1
+      }
+    },
+    {
+      "module": "C3",
+      "value": 5.24,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 21,
+        "quote": "Core Environmental Impact Indicators GWP-tot C3: 5.24E+00 kg CO₂ eq."
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 1
+      }
+    },
+    {
+      "module": "C4",
+      "value": 2.79,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 21,
+        "quote": "Core Environmental Impact Indicators GWP-tot C4: 2.79E+00 kg CO₂ eq."
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 1
+      }
+    },
+    {
+      "module": "D",
+      "value": 6.14,
+      "unit": "kg CO₂ eq.",
+      "status": "reported",
+      "source": {
+        "page": 21,
+        "quote": "Core Environmental Impact Indicators GWP-tot D: 6.14E+00 kg CO₂ eq."
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 1
+      }
+    }
+  ],
+  "comparabilityNotes": [
+    "EPDs within the same product category but from different programmes may not be comparable. EPDs of construction products may not be comparable if they do not comply with EN 15804."
+  ],
+  "dataQualityFlags": []
+}

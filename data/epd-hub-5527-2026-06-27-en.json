@@ -1,0 +1,150 @@
+{
+  "id": "epd-hub-5527-2026-06-27-en",
+  "sourcePdf": "Resources/EPD_HUB-5527_2026-06-27_en.pdf",
+  "productName": "CTILTS4020100Enhanced Tandy Concrete",
+  "manufacturer": "Tandy Concrete",
+  "declaredUnit": "1 m³",
+  "manufacturingLocation": "11 McIntosh Drive, Airlie Beach, Australia",
+  "compressiveStrength": {
+    "value": 40,
+    "unit": "MPa",
+    "status": "reported",
+    "source": {
+      "page": 2,
+      "quote": "Tandy 40MPa Tilt up concrete"
+    }
+  },
+  "lifeCycleGwp": [
+    {
+      "module": "A1-A3",
+      "value": 284,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 9,
+        "quote": "CORE ENVIRONMENTAL IMPACT INDICATORS — EN 15804+A2, EF 3.1 Impact category Unit Al A2 A3 A1-A3 A4 AS B1 B2 B3 B4 BS B6 B7 cr c2 cS) c4 D; GWP - total?) kg COze | 2,54E+02 2,63E+01 4,07E+00 2,84E+02 | 2,19E+00 1,67E+01 | ND ND ND ND ND ND ND 4,54E+00 1,29E+01 7,31E+00 4,47E+00 | -1,34E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "A4",
+      "value": 2.19,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 9,
+        "quote": "GWP - total*) kg CO2e | 2,54E+02 2,63E+01 4,07E+00 2,84E+02 | 2,19E+00 1,67E+01 | ND ND ND ND ND ND ND 4,54E+00 1,29E+01 7,31E+00 4,47E+00 | -1,34E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "A5",
+      "value": 16.7,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 9,
+        "quote": "GWP - total*) kg CO2e | 2,54E+02 2,63E+01 4,07E+00 2,84E+02 | 2,19E+00 1,67E+01 | ND ND ND ND ND ND ND 4,54E+00 1,29E+01 7,31E+00 4,47E+00 | -1,34E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "B1-B7",
+      "value": null,
+      "unit": null,
+      "status": "not_declared",
+      "source": null,
+      "verification": {
+        "status": "not_found",
+        "confidence": 0
+      }
+    },
+    {
+      "module": "C1",
+      "value": 4.54,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 9,
+        "quote": "GWP - total*) kg CO2e | 2,54E+02 2,63E+01 4,07E+00 2,84E+02 | 2,19E+00 1,67E+01 | ND ND ND ND ND ND ND 4,54E+00 1,29E+01 7,31E+00 4,47E+00 | -1,34E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C2",
+      "value": 12.9,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 9,
+        "quote": "GWP - total*) kg CO2e | 2,54E+02 2,63E+01 4,07E+00 2,84E+02 | 2,19E+00 1,67E+01 | ND ND ND ND ND ND ND 4,54E+00 1,29E+01 7,31E+00 4,47E+00 | -1,34E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C3",
+      "value": 7.31,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 9,
+        "quote": "GWP - total*) kg CO2e | 2,54E+02 2,63E+01 4,07E+00 2,84E+02 | 2,19E+00 1,67E+01 | ND ND ND ND ND ND ND 4,54E+00 1,29E+01 7,31E+00 4,47E+00 | -1,34E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C4",
+      "value": 4.47,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 9,
+        "quote": "GWP - total*) kg CO2e | 2,54E+02 2,63E+01 4,07E+00 2,84E+02 | 2,19E+00 1,67E+01 | ND ND ND ND ND ND ND 4,54E+00 1,29E+01 7,31E+00 4,47E+00 | -1,34E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "D",
+      "value": -13.4,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 9,
+        "quote": "GWP - total*) kg CO2e | 2,54E+02 2,63E+01 4,07E+00 2,84E+02 | 2,19E+00 1,67E+01 | ND ND ND ND ND ND ND 4,54E+00 1,29E+01 7,31E+00 4,47E+00 | -1,34E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    }
+  ],
+  "comparabilityNotes": [
+    "EPDs of construction products may not be comparable if they do not comply with EN 15804 and if they are not compared in a building context.",
+    "EPDs within the same product category but from different programs may not be comparable."
+  ],
+  "dataQualityFlags": [
+    "Specific data 98.9%",
+    "Third-party verified EPD"
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "epd-hub-5882-2026-06-27-en",
+  "sourcePdf": "Resources/EPD_HUB-5882_2026-06-27_en.pdf",
+  "productName": "40 MPa High Performance Concrete",
+  "manufacturer": "Boral Limited",
+  "declaredUnit": "1 m³",
+  "manufacturingLocation": "Melbourne",
+  "compressiveStrength": {
+    "value": 40,
+    "unit": "MPa",
+    "status": "reported",
+    "source": {
+      "page": 4,
+      "quote": "Product name | 40 MPa High Performance Concrete"
+    }
+  },
+  "lifeCycleGwp": [
+    {
+      "module": "A1-A3",
+      "value": 297,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 13,
+        "quote": "GWP – total1 kg CO2e ... A1-A3 2.97E+02"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "A4",
+      "value": null,
+      "unit": null,
+      "status": "not_declared",
+      "source": {
+        "page": 5,
+        "quote": "Modules not declared = ND"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "A5",
+      "value": null,
+      "unit": null,
+      "status": "not_declared",
+      "source": {
+        "page": 5,
+        "quote": "Modules not declared = ND"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "B1-B7",
+      "value": null,
+      "unit": null,
+      "status": "not_declared",
+      "source": {
+        "page": 5,
+        "quote": "Modules not declared = ND"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C1",
+      "value": 4.45,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 14,
+        "quote": "GWP – total kg CO2e ... C1 4.45E+00"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C2",
+      "value": 12.6,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 14,
+        "quote": "GWP – total kg CO2e ... C2 1.26E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C3",
+      "value": 7.16,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 14,
+        "quote": "GWP – total kg CO2e ... C3 7.16E+00"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C4",
+      "value": 4.38,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 14,
+        "quote": "GWP – total kg CO2e ... C4 4.38E+00"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "D",
+      "value": -12.8,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 14,
+        "quote": "GWP – total kg CO2e ... D -1.28E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    }
+  ],
+  "comparabilityNotes": [
+    "EPDs of construction products may not be comparable if they do not comply with EN 15804 and if they are not compared in a building context."
+  ],
+  "dataQualityFlags": [
+    "This EPD covers a single product that may exhibit minor variations in composition. Boral has verified that the variation in Global Warming Potential (GWP) across all covered variants remains within ±10%."
+  ]
+}

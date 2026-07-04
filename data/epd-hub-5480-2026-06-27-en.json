@@ -1,0 +1,149 @@
+{
+  "id": "epd-hub-5480-2026-06-27-en",
+  "sourcePdf": "Resources/EPD_HUB-5480_2026-06-27_en.pdf",
+  "productName": "ATILTS4020100Enhanced",
+  "manufacturer": "Tandy Concrete",
+  "declaredUnit": "1 m3",
+  "manufacturingLocation": "21 Mackay Slade Point Road, Mackay, Australia",
+  "compressiveStrength": {
+    "value": 40,
+    "unit": "MPa",
+    "status": "reported",
+    "source": {
+      "page": 2,
+      "quote": "Tandy 40MPa Tiltup up concrete"
+    }
+  },
+  "lifeCycleGwp": [
+    {
+      "module": "A1-A3",
+      "value": 280,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 2,
+        "quote": "GWP-total, A1-A3 (kg CO2e) 280"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "A4",
+      "value": 2.85,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 9,
+        "quote": "2,85E+00"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "A5",
+      "value": 16.6,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 9,
+        "quote": "1,66E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "B1-B7",
+      "value": null,
+      "unit": null,
+      "status": "not_declared",
+      "source": null,
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C1",
+      "value": 4.58,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 9,
+        "quote": "4,58E+00"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C2",
+      "value": 13,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 9,
+        "quote": "1,30E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C3",
+      "value": 7.38,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 9,
+        "quote": "7,38E+00"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "C4",
+      "value": 4.51,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 9,
+        "quote": "4,51E+00"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    },
+    {
+      "module": "D",
+      "value": -13.5,
+      "unit": "kg CO2e",
+      "status": "reported",
+      "source": {
+        "page": 9,
+        "quote": "-1,35E+01"
+      },
+      "verification": {
+        "status": "supported",
+        "confidence": 0.9
+      }
+    }
+  ],
+  "comparabilityNotes": [
+    "EPDs within the same product category but from different programs may not be comparable. EPDs of construction products may not be comparable if they do not comply with EN 15804 and if they are not compared in a building context."
+  ],
+  "dataQualityFlags": [
+    "Specific data: 99%",
+    "Third party verified"
+  ]
+}
